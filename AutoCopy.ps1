@@ -9,7 +9,7 @@
 param([switch]$Settings)
 
 # --- quick-action hotkeys: defaults --------------------------------------------
-# Change them from the tray icon -> "Hotkey settings..." (or double-click the
+# Change them from the tray icon -> "Settings..." (or double-click the
 # tray icon). Your choices are saved permanently to
 # %APPDATA%\AutoCopy\settings.json and override these defaults.
 # Format: modifiers + key, e.g. 'Ctrl+Alt+M', 'Pause', 'F13'. '' = off.
@@ -489,7 +489,7 @@ if ($script:quickOk) {
 
     $failed = Register-AllHotkeys
     if ($failed.Count) {
-        $script:notify.ShowBalloonTip(4000, 'Hotkey unavailable', "Couldn't register: $($failed -join ', '). Another app is using it - pick a different key in Hotkey settings (double-click the tray icon).", [System.Windows.Forms.ToolTipIcon]::Warning)
+        $script:notify.ShowBalloonTip(4000, 'Hotkey unavailable', "Couldn't register: $($failed -join ', '). Another app is using it - pick a different key in Settings (double-click the tray icon).", [System.Windows.Forms.ToolTipIcon]::Warning)
     }
 
     # keep overlay in sync with the real mic state (also catches muting from
