@@ -1,0 +1,2 @@
+# keep files byte-for-byte (PowerShell 5.1 needs the CRLF + BOM as saved)
+* -text

@@ -1,0 +1,6 @@
+# local tool settings
+.claude/
+# build output and test captures
+*.zip
+Screenshot*.png
+*.log
