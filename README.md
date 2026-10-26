@@ -238,3 +238,14 @@ Running two copies is harmless: the second one quits right away.
 | `Start-AutoCopy.vbs` | starts the app with no console window |
 | `Install.ps1` / `Uninstall.ps1` | add to / remove from Windows startup |
 | `CLAUDE.md` | technical guide for developers and AI assistants |
+
+---
+
+## License
+
+Free to use, change and share, including commercially, under the
+[MIT License](LICENSE).
+
+If you share or publish a modified version, keep the `LICENSE` file with its
+copyright notice and **credit the original author, Udara Sampath**
+(https://github.com/Udara-Sampath/AutoCopy).
